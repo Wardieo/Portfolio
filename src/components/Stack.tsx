@@ -1,0 +1,2 @@
+import{stack}from'../data';import{PageHeader}from'./PageHeader'
+export function Stack(){return <section className="screen"><PageHeader title="tech stack" description="The tools, platforms, and technical capabilities I reach for across development, automation, and IT systems."/><div className="stack-groups">{stack.map(([group,items])=><section key={group as string}><h2>{group}</h2><div>{(items as string[]).map(item=><span key={item}>{item}</span>)}</div></section>)}</div></section>}
