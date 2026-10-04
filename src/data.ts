@@ -15,4 +15,14 @@ export const experience=[
 {initials:'DP',company:'DPWH District Engineering Office',type:'Internship',place:'Butuan City, Philippines',role:'Information & Communication Technology Intern',period:'FEB 2026 — MAR 2026',endDate:'2026-03',description:['Provided technical support for office printers, including setup, maintenance, and troubleshooting across different departments.','Assisted with basic hardware and software troubleshooting for office computers, network cable checking, and general IT maintenance.'],skills:['IT Support','Hardware','Software','Networking']},
 {initials:'LS',company:'Leo Szac, MDS LLC · Upwork Inc.',type:'Contract',place:'Remote',role:'Automation Engineer',period:'JAN 2025 — APR 2025',endDate:'2025-04',description:['Developed and implemented Make.com automation workflows for a personalized book-generation system.','Built end-to-end processes that dynamically generated customized books while maintaining image consistency across outputs. Integrated tools and services to streamline content generation and support a scalable production workflow.'],skills:['Make.com','Automation','System Integration','Workflow Design']},
 {initials:'SR',company:'Safer Road Rescue',type:'Operations',place:'USA-based company',role:'Agent & Dispatch',period:'APR 2026 — SEP 2026',endDate:'2026-09',description:['Provided roadside assistance support by handling customer calls, gathering service and location details, and coordinating with nearby service providers.','Dispatched vendors for towing and other roadside assistance requests while keeping communication clear between customers and providers.'],skills:['Customer Support','Dispatch','Coordination','Problem Solving']}]
-export const stack=[['Development',['Python','JavaScript','React.js','React Native']],['Automation',['Make.com','Workflow Automation','System Integration','API Integration']],['IT & Systems',['IT Support','Technical Support','Hardware Troubleshooting','Software Troubleshooting','Networking']],['Development Tools',['Git','GitHub']],['Professional',['Technical Troubleshooting','Problem Solving','Customer Support','Technical Communication']]]
+export const stack=[
+['Development',['TypeScript','JavaScript','React','Next.js','React Native','Expo','Node.js','Python']],
+['Backend & Database',['Supabase','PostgreSQL','Firebase','REST APIs','Authentication','Row Level Security']],
+['Mobile Development',['React Native','Expo','EAS Build','Push Notifications','Google Play Deployment','OAuth']],
+['Cloud & Integrations',['Supabase','Cloudflare R2','Mapbox','Payment Integration','OAuth','Webhooks']],
+['Automation',['n8n','Make.com','Workflow Automation','API Integration','Webhooks','System Integration']],
+['Developer Tools',['Git','GitHub','Postman','Linux','Docker','VS Code']],
+['Testing & QA',['API Testing','Manual Testing','Postman','Playwright']],
+['IT & Systems',['IT Support','Technical Support','Hardware Troubleshooting','Software Troubleshooting','Networking']],
+['Professional',['Technical Troubleshooting','Problem Solving','Customer Support','Technical Communication']]
+]
